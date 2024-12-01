@@ -9,4 +9,16 @@ To run express backend
 Step 1: tsc -b
 Step 2: node dist/index.js
 
+Go to worker 
+Step 1: tsc -b
+Step 2: node dist/index.js
 
+Then hit with postman the route 
+http://localhost:3000/submit
+And request body with the value of json 
+{
+    "problemId":565,
+    "code":"387383",
+    "language":"hindi"
+
+}
