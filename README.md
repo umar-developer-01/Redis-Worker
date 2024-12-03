@@ -1,9 +1,15 @@
 🚀 Project Setup
+
+
 Follow these steps to set up and run the project:
 
 🛠 Prerequisites
+
+
 Docker 🐋: Ensure it's installed and running.
 Node.js 🌟: Install it to run the project.
+
+
 📦 Steps
 
 
