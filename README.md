@@ -5,6 +5,8 @@ Follow these steps to set up and run the project:
 Docker 🐋: Ensure it's installed and running.
 Node.js 🌟: Install it to run the project.
 📦 Steps
+
+
 1️⃣ Set Up Redis
 1 Run Redis
 docker run --name my-redis -d -p 6379:6379 redis  
