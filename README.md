@@ -14,25 +14,63 @@ Node.js 🌟: Install it to run the project.
 
 
 1️⃣ Set Up Redis
+
+
 1 Run Redis
+
+
 docker run --name my-redis -d -p 6379:6379 redis  
+
+
 2 Access Redis
+
+
 docker exec -it <container_id> /bin/bash  
+
+
 redis-cli  
+
+
 2️⃣ Install & Run Express Backend
+
+
 1 Navigate to express-backend
+
+
 cd express-backend  
+
+
 npm install  
+
+
 2 Build and start
+
+
 tsc -b  
+
+
 node dist/index.js  
 
+
+
 3️⃣ Set Up & Run Worker
+
+
 1 Navigate to worker
+
+
 cd worker  
+
+
 2 Build and start
+
+
 tsc -b  
+
+
 node dist/index.js  
+
+
 
 4️⃣ Test the API
 
